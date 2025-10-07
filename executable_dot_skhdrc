@@ -1,0 +1,17 @@
+ctrl - return : open -na Ghostty
+ctrl - 1 : source ~/bin/swspace 1
+ctrl - 2 : source ~/bin/swspace 2
+ctrl - 3 : source ~/bin/swspace 3
+ctrl - 4 : source ~/bin/swspace 4
+ctrl - 5 : source ~/bin/swspace 5
+ctrl - 6 : source ~/bin/swspace 6
+ctrl - 7 : source ~/bin/swspace 7
+shift + cmd - h : yabai -m window --space next; yabai -m space --focus next
+shift + cmd - l : yabai -m window --space  prev; yabai -m space --focus prev
+ctrl - h : yabai -m space --focus prev;
+ctrl - l : yabai -m space --focus next; 
+ctrl - j : yabai -m window --focus next || yabai -m window --focus first
+ctrl - k : yabai -m window --focus prev; 
+ctrl - o : yabai -m config top_padding 4 ; spacebar -m config height 0
+shift + ctrl - o : yabai -m config top_padding 24 ; spacebar -m config height 20
+alt - p : yabai -m window --toggle sticky --toggle pip
